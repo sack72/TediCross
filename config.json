@@ -1,0 +1,19 @@
+{
+  "bridges": [
+    {
+      "name": "Telegram-to-Discord Test",
+      "telegram": {
+        "token": "${TELEGRAM_TOKEN}",
+        "chats": ["${TELEGRAM_CHAT_ID}"]
+      },
+      "discord": {
+        "token": "${DISCORD_TOKEN}",
+        "channels": ["${DISCORD_CHANNEL_ID}"]
+      },
+      "settings": {
+        "telegramForward": true,
+        "discordForward": false
+      }
+    }
+  ]
+}
